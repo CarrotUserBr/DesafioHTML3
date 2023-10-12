@@ -45,3 +45,22 @@ header {
 h1{
     font-size:xx-large
 }
+table td {
+    text-align: center;
+    padding: 15px;
+}
+table th{
+    padding: 8px;;
+}
+details summary{
+    list-style-type: '➶';
+}
+table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+table th{
+    background-color: #d2d2d2;
+}
+table td.showrunner {
+    background-color: #ffffff;
+}
